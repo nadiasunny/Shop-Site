@@ -12,3 +12,13 @@ export default function MyApp() {
         </div>
     );
 }
+
+ReactDOM.render(
+    (
+      <div>
+        <h>Testing</h>
+        <MyNavbar />
+        </div>
+    ),
+    document.querySelector('#root')
+  );
